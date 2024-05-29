@@ -1,0 +1,116 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #cf821e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #e91e63;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #05929c, #feb47b);
+    color: #fff;
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.about-section, .projects-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2, .projects-section h2, .contact-section h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section label {
+    margin: 5px 0;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #d81b60;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
